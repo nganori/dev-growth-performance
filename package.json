@@ -1,0 +1,14 @@
+{
+  "name": "dev-growth-performance",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "frontend": "pnpm --filter frontend start",
+    "backend": "pnpm --filter backend start:dev",
+    "dev": "pnpm run --parallel frontend backend"
+  },
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8"
+  }
+}
